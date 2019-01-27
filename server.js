@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
 })
 app.post('/signin', signin.handleSignin(db, bcrypt))
 app.post('/register', (req, res) => { register.handleRegister(req, res, db, bcrypt) })
-app.post('/parsedfile', (req,res) => parsedfile.handleParsed(req,res,db))
+app.get('/parsedfile', (req,res) => parsedfile.handleParsed(req,res,db))
 app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db)})
 app.get('/unparsedfiles', (req, res) => { unparsed.handleUnparsedGet(req, res, db)})
 app.get('/:fileName',function(req,res,next){
