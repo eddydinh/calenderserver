@@ -1,12 +1,12 @@
 const handleUnparsedGet = (req, res, db) => {
  
-  db.select('filename','parsedfile','id').from('users').whereNotNull("filename")
+  db.select('filename','courses','id').from('users').whereNotNull("filename")
     .then(filename => {
       if (filename.length) {
           let responseString = '';
           for(i=0; i<filename.length; i++){
               responseString +=filename[i].filename;
-              responseString += "," + filename[i].parsedfile;
+              responseString += "," + filename[i].courses;
               responseString += "," + filename[i].id;
               responseString += "#";
           }
