@@ -56,7 +56,7 @@ app.get('/:fileName',function(req,res,next){
 });
 
 
-app.get('/unparsedfiles', (req, res) => { unparsed.handleUnparsedGet(req, res, db)})
+app.get('/unparsedfiles/:id', (req, res) => { unparsed.handleUnparsedGet(req, res, db)})
 
 app.listen(process.env.PORT || 3000, ()=> {
   console.log(`app is running on port ${process.env.PORT}`);
