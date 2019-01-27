@@ -9,6 +9,7 @@ const register = require('./controllers/register');
 const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const unparsed = require('./controllers/unparsed');
+const parsedfile = require('./controllers/parsed');
 
 
 const db = knex({
@@ -32,9 +33,9 @@ app.get('/', (req, res) => {
 })
 app.post('/signin', signin.handleSignin(db, bcrypt))
 app.post('/register', (req, res) => { register.handleRegister(req, res, db, bcrypt) })
+app.post('/parsedfile', (req,res) => parsedfile.handleParsed(req,res,db))
 app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db)})
 app.get('/unparsedfiles', (req, res) => { unparsed.handleUnparsedGet(req, res, db)})
-
 app.get('/:fileName',function(req,res,next){
     
   const options = {
