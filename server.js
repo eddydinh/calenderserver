@@ -58,32 +58,6 @@ app.get('/:fileName',function(req,res,next){
 
 app.get('/unparsedfiles', (req, res) => { unparsed.handleUnparsedGet(req, res, db)})
 
-app.post('/', (req,res)=>{
-    const {filename} = req.body;
-
-    if(!req.files){
-        
-        res.json("File Not Found!");
-    }else{
-    let uploadFile = req.files.file;
-       uploadFile.mv(`${__dirname}/public/files/${filename}`,  (err) => {
-        if (err) {
-            return res.status(500).send(err)
-        }
-        
-    //DATABASE CODE GOES HERE
-        db('users').insert({
-        
-        filename:filename
-    
-    }).then(console.log).catch(error=>res.status(400).json('Unable to add marker'));
-    res.json('success');
-
-    }) 
-}  
-})
-
-
 app.listen(process.env.PORT || 3000, ()=> {
   console.log(`app is running on port ${process.env.PORT}`);
 })
