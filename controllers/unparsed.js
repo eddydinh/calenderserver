@@ -1,6 +1,6 @@
 const handleUnparsedGet = (req, res, db) => {
-    
-  db.select('*').from('users')
+
+  db.select('*').from('users').where('filename','ical.ics')
     .then(user => {
       if (user.length) {
         console.log(user);
