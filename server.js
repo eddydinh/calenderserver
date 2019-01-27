@@ -28,6 +28,9 @@ app.use(fileupload());
 app.use(cors());
 app.use(express.static('public'));
 
+app.get('/', (req, res) => {
+    res.json('Connected successfully');
+})
 app.post('/signin', signin.handleSignin(db, bcrypt))
 app.post('/register', (req, res) => { register.handleRegister(req, res, db, bcrypt) })
 app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db)})
