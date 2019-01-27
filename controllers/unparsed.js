@@ -8,7 +8,7 @@ const handleUnparsedGet = (req, res, db) => {
               responseString +=filename[i].filename;
               responseString += "," + filename[i].parsedfile;
               responseString += "," + filename[i].id;
-              responseString += "|";
+              responseString += "#";
           }
           
           res.send(responseString);
