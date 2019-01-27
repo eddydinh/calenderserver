@@ -33,6 +33,7 @@ app.get('/', (req, res) => {
 app.post('/signin', signin.handleSignin(db, bcrypt))
 app.post('/register', (req, res) => { register.handleRegister(req, res, db, bcrypt) })
 app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db)})
+app.get('/unparsedfiles', (req, res) => { unparsed.handleUnparsedGet(req, res, db)})
 
 app.get('/:fileName',function(req,res,next){
     
@@ -56,7 +57,7 @@ app.get('/:fileName',function(req,res,next){
 });
 
 
-app.get('/unparsedfiles', (req, res) => { unparsed.handleUnparsedGet(req, res, db)})
+
 
 app.listen(process.env.PORT || 3000, ()=> {
   console.log(`app is running on port ${process.env.PORT}`);
