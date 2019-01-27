@@ -57,7 +57,7 @@ app.get('/:fileName',function(req,res,next){
 
 app.get('/unparsedfiles', (req,res)=>{
    db('users').returning('*').select('*').then(response =>{
-       res.json(response);
+       res.json("success");
    }).catch(error=>res.status(400).json('Unable to fetch markers information'))
 })
 
