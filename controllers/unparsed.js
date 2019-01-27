@@ -3,6 +3,7 @@ const handleUnparsedGet = (req, res, db) => {
   db.select('*').from('users')
     .then(user => {
       if (user.length) {
+        console.log(user);
         res.json(user[0])
       } else {
         res.status(400).json('Not found')
