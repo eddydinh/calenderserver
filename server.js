@@ -8,6 +8,7 @@ const knex = require('knex');
 const register = require('./controllers/register');
 const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
+const unparsed = require('./controllers/unparsed');
 
 
 const db = knex({
@@ -55,11 +56,7 @@ app.get('/:fileName',function(req,res,next){
 });
 
 
-app.get('/unparsedfiles', (req,res)=>{
-   db.select('*').from('users').then(response =>{
-       res.json("success");
-   }).catch(error=>res.json(error))
-})
+app.get('/unparsedfiles', (req, res) => { unparsed.handleUnparsedGet(req, res, db)})
 
 app.post('/', (req,res)=>{
     const {filename} = req.body;
