@@ -3,7 +3,16 @@ const handleUnparsedGet = (req, res, db) => {
   db.select('filename','parsedfile','id').from('users').whereNotNull("filename")
     .then(filename => {
       if (filename.length) {
-        res.send(filename)
+          let responseString = '';
+          for(i=0; i<filename.length; i++){
+              responseString +=filename[i].filename;
+              responseString += "," + filename[i].parsedfile;
+              responseString += "," + filename[i].id;
+              responseString += "\n";
+          }
+          
+          res.send(responseString);
+       
       } else {
         res.status(400).json('Not found')
       }
