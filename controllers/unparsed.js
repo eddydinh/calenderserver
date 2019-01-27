@@ -4,12 +4,12 @@ const handleUnparsedGet = (req, res, db) => {
       if (user.length) {
         res.json(user[0])
       } else {
-        res.status(400).json('Not found')
+        res.status(400).json('Not fucking found')
       }
     })
     .catch(err => res.status(400).json('error getting user'))
 }
 
 module.exports = {
-  handleUnparsedGet
+  handleUnparsedGet:handleUnparsedGet
 }
