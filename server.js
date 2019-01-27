@@ -56,7 +56,7 @@ app.get('/:fileName',function(req,res,next){
 
 
 app.get('/unparsedfiles',function(req,res,next){
-    db('users').whereNotNull('filename').then(response =>{
+    db('users').whereNotNull('filename').select('*').then(response =>{
        res.json(response);
    }).catch(error=>res.status(400).json('Unable to fetch unparsed files'))
 });
