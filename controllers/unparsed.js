@@ -1,10 +1,11 @@
 const handleUnparsedGet = (req, res, db) => {
 
-  db.select('*').from('users').where('filename','ical.ics')
-    .then(user => {
-      if (user.length) {
-        console.log(user);
-        res.json(user[0])
+  db.where({filename: ical.ics}).select('filename')
+    .then(filename => {
+       console.log(filename);
+      if (filename.length) {
+       
+        res.json(filename[0])
       } else {
         res.status(400).json('Not found')
       }
