@@ -1,5 +1,5 @@
 const handleParsed = (req, res, db) => {
-  const {parsed,id} = req.body;
+  const { id, parsed} = req.query;
 
   if (!parsed) {
     return res.status(400).json("no parsed string sent");
