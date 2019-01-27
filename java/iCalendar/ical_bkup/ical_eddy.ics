@@ -1,0 +1,455 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UBC Course Schedule//iCal 1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Vancouver
+TZURL:http://tzurl.org/zoneinfo/America/Vancouver
+X-LIC-LOCATION:America/Vancouver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:-081228
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:18840101T000000
+RDATE:18840101T000000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19180414T020000
+RDATE:19180414T020000
+RDATE:19460428T020000
+RDATE:19470427T020000
+RDATE:19480425T020000
+RDATE:19490424T020000
+RDATE:19500430T020000
+RDATE:19510429T020000
+RDATE:19520427T020000
+RDATE:19530426T020000
+RDATE:19540425T020000
+RDATE:19550424T020000
+RDATE:19560429T020000
+RDATE:19570428T020000
+RDATE:19580427T020000
+RDATE:19590426T020000
+RDATE:19600424T020000
+RDATE:19610430T020000
+RDATE:19620429T020000
+RDATE:19630428T020000
+RDATE:19640426T020000
+RDATE:19650425T020000
+RDATE:19660424T020000
+RDATE:19670430T020000
+RDATE:19680428T020000
+RDATE:19690427T020000
+RDATE:19700426T020000
+RDATE:19710425T020000
+RDATE:19720430T020000
+RDATE:19730429T020000
+RDATE:19740428T020000
+RDATE:19750427T020000
+RDATE:19760425T020000
+RDATE:19770424T020000
+RDATE:19780430T020000
+RDATE:19790429T020000
+RDATE:19800427T020000
+RDATE:19810426T020000
+RDATE:19820425T020000
+RDATE:19830424T020000
+RDATE:19840429T020000
+RDATE:19850428T020000
+RDATE:19860427T020000
+RDATE:19870405T020000
+RDATE:19880403T020000
+RDATE:19890402T020000
+RDATE:19900401T020000
+RDATE:19910407T020000
+RDATE:19920405T020000
+RDATE:19930404T020000
+RDATE:19940403T020000
+RDATE:19950402T020000
+RDATE:19960407T020000
+RDATE:19970406T020000
+RDATE:19980405T020000
+RDATE:19990404T020000
+RDATE:20000402T020000
+RDATE:20010401T020000
+RDATE:20020407T020000
+RDATE:20030406T020000
+RDATE:20040404T020000
+RDATE:20050403T020000
+RDATE:20060402T020000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19181027T020000
+RDATE:19181027T020000
+RDATE:19450930T020000
+RDATE:19461013T020000
+RDATE:19470928T020000
+RDATE:19480926T020000
+RDATE:19490925T020000
+RDATE:19500924T020000
+RDATE:19510930T020000
+RDATE:19520928T020000
+RDATE:19530927T020000
+RDATE:19540926T020000
+RDATE:19550925T020000
+RDATE:19560930T020000
+RDATE:19570929T020000
+RDATE:19580928T020000
+RDATE:19590927T020000
+RDATE:19600925T020000
+RDATE:19610924T020000
+RDATE:19621028T020000
+RDATE:19631027T020000
+RDATE:19641025T020000
+RDATE:19651031T020000
+RDATE:19661030T020000
+RDATE:19671029T020000
+RDATE:19681027T020000
+RDATE:19691026T020000
+RDATE:19701025T020000
+RDATE:19711031T020000
+RDATE:19721029T020000
+RDATE:19731028T020000
+RDATE:19741027T020000
+RDATE:19751026T020000
+RDATE:19761031T020000
+RDATE:19771030T020000
+RDATE:19781029T020000
+RDATE:19791028T020000
+RDATE:19801026T020000
+RDATE:19811025T020000
+RDATE:19821031T020000
+RDATE:19831030T020000
+RDATE:19841028T020000
+RDATE:19851027T020000
+RDATE:19861026T020000
+RDATE:19871025T020000
+RDATE:19881030T020000
+RDATE:19891029T020000
+RDATE:19901028T020000
+RDATE:19911027T020000
+RDATE:19921025T020000
+RDATE:19931031T020000
+RDATE:19941030T020000
+RDATE:19951029T020000
+RDATE:19961027T020000
+RDATE:19971026T020000
+RDATE:19981025T020000
+RDATE:19991031T020000
+RDATE:20001029T020000
+RDATE:20011028T020000
+RDATE:20021027T020000
+RDATE:20031026T020000
+RDATE:20041031T020000
+RDATE:20051030T020000
+RDATE:20061029T020000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PWT
+DTSTART:19420209T020000
+RDATE:19420209T020000
+END:DAYLIGHT
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0700
+TZNAME:PPT
+DTSTART:19450814T160000
+RDATE:19450814T160000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19870101T000000
+RDATE:19870101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20181127T235959;INTERVAL=1;BYDAY=TU
+SUMMARY:DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=223\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=223\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:FIP\, Room 121
+DESCRIPTION:This course has HARD pre-requisites. If you are unable to register because of a pre-requisite issue\, please email unit5.okanagan@ubc.ca. Include your name\, student number\, the course you would like to register in\, the pre-requisite(s) you are missing\, plus a DETAILED reason why you are requesting the pre-requisite waiver. If your pre-requisite waiver is approved\, you will be force-added to the course\, so please include your registration date and time.\n\nIf the course is blocked please add yourself to the waitlist.\n\nPlease register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule.\n\nIf the course is blocked please add yourself to the waitlist.\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412286abcd82826
+DTSTART;TZID=America/Vancouver:20180904T153000
+DTEND;TZID=America/Vancouver:20180904T170000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20181129T235959;INTERVAL=1;BYDAY=TH
+SUMMARY:DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=223\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=223\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:FIP\, Room 121
+DESCRIPTION:This course has HARD pre-requisites. If you are unable to register because of a pre-requisite issue\, please email unit5.okanagan@ubc.ca. Include your name\, student number\, the course you would like to register in\, the pre-requisite(s) you are missing\, plus a DETAILED reason why you are requesting the pre-requisite waiver. If your pre-requisite waiver is approved\, you will be force-added to the course\, so please include your registration date and time.\n\nIf the course is blocked please add yourself to the waitlist.\n\nPlease register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule.\n\nIf the course is blocked please add yourself to the waitlist.\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412286abcd52867
+DTSTART;TZID=America/Vancouver:20180906T153000
+DTEND;TZID=America/Vancouver:20180906T170000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20181128T235959;INTERVAL=1;BYDAY=WE
+SUMMARY:DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=223\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=223\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:SCI\, Room 234
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412286abcd118097
+DTSTART;TZID=America/Vancouver:20180905T153000
+DTEND;TZID=America/Vancouver:20180905T173000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20181128T235959;INTERVAL=1;BYDAY=WE
+SUMMARY:DeptKey[departmentCode=CRWR\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=250\,courseDetailCode=\,DeptKey[departmentCode=CRWR\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=250\,courseDetailCode=\,DeptKey[departmentCode=CRWR\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:ART\, Room 104
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412286abcd117818
+DTSTART;TZID=America/Vancouver:20180905T093000
+DTEND;TZID=America/Vancouver:20180905T123000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20181127T235959;INTERVAL=1;BYDAY=TU
+SUMMARY:DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=100\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=100\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:ADM\, Room 026
+DESCRIPTION:***If this class is blocked please register onto the waitlist*** Students will be added to the class from the waitlist as space becomes available. Please ensure you have the proper pre-reqs.\n\nPlease register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule.\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412286abcd409973
+DTSTART;TZID=America/Vancouver:20180904T093000
+DTEND;TZID=America/Vancouver:20180904T110000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20181129T235959;INTERVAL=1;BYDAY=TH
+SUMMARY:DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=100\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=100\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:ADM\, Room 026
+DESCRIPTION:***If this class is blocked please register onto the waitlist*** Students will be added to the class from the waitlist as space becomes available. Please ensure you have the proper pre-reqs.\n\nPlease register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule.\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412286abcd567417
+DTSTART;TZID=America/Vancouver:20180906T093000
+DTEND;TZID=America/Vancouver:20180906T110000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20181127T235959;INTERVAL=1;BYDAY=TU
+SUMMARY:DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=100\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=100\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:EME\, Room 2205
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412286abcd140564
+DTSTART;TZID=America/Vancouver:20180904T140000
+DTEND;TZID=America/Vancouver:20180904T150000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20181130T235959;INTERVAL=1;BYDAY=FR
+SUMMARY:DeptKey[departmentCode=VISA\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=268\,courseDetailCode=\,DeptKey[departmentCode=VISA\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=268\,courseDetailCode=\,DeptKey[departmentCode=VISA\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:SCI\, Room 128
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd211288
+DTSTART;TZID=America/Vancouver:20180907T140000
+DTEND;TZID=America/Vancouver:20180907T180000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190402T235959;INTERVAL=1;BYDAY=TU
+SUMMARY:DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=121\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=121\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:FIP\, Room 204
+DESCRIPTION:Please register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule. \n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd564300
+DTSTART;TZID=America/Vancouver:20190101T093000
+DTEND;TZID=America/Vancouver:20190101T110000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190404T235959;INTERVAL=1;BYDAY=TH
+SUMMARY:DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=121\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=121\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:FIP\, Room 204
+DESCRIPTION:Please register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule. \n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd233140
+DTSTART;TZID=America/Vancouver:20190103T093000
+DTEND;TZID=America/Vancouver:20190103T110000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190405T235959;INTERVAL=1;BYDAY=FR
+SUMMARY:DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=121\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=121\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:FIP\, Room 133
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd448196
+DTSTART;TZID=America/Vancouver:20190104T163000
+DTEND;TZID=America/Vancouver:20190104T183000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190401T235959;INTERVAL=1;BYDAY=MO
+SUMMARY:DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=264\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=264\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:ART\, Room 104
+DESCRIPTION:This course has HARD pre-requisites. If you are unable to register because of a pre-requisite issue\, please email unit5.okanagan@ubc.ca. Include your name\, student number\, the course you would like to register in\, the pre-requisite(s) you are missing\, plus a DETAILED reason why you are requesting the pre-requisite waiver. If your pre-requisite waiver is approved\, you will be force-added to the course\, so please include your registration date and time.\n\nIf the course is blocked please add yourself to the waitlist.\n\nPlease register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule.\n\nIf the course is blocked please add yourself to the waitlist.\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd588606
+DTSTART;TZID=America/Vancouver:20181231T153000
+DTEND;TZID=America/Vancouver:20181231T170000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190403T235959;INTERVAL=1;BYDAY=WE
+SUMMARY:DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=264\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=264\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:ART\, Room 104
+DESCRIPTION:This course has HARD pre-requisites. If you are unable to register because of a pre-requisite issue\, please email unit5.okanagan@ubc.ca. Include your name\, student number\, the course you would like to register in\, the pre-requisite(s) you are missing\, plus a DETAILED reason why you are requesting the pre-requisite waiver. If your pre-requisite waiver is approved\, you will be force-added to the course\, so please include your registration date and time.\n\nIf the course is blocked please add yourself to the waitlist.\n\nPlease register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule.\n\nIf the course is blocked please add yourself to the waitlist.\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd420950
+DTSTART;TZID=America/Vancouver:20190102T153000
+DTEND;TZID=America/Vancouver:20190102T170000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190404T235959;INTERVAL=1;BYDAY=TH
+SUMMARY:DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=264\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=264\,courseDetailCode=\,DeptKey[departmentCode=COSC\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:SCI\, Room 234
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd577330
+DTSTART;TZID=America/Vancouver:20190103T153000
+DTEND;TZID=America/Vancouver:20190103T173000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190403T235959;INTERVAL=1;BYDAY=WE
+SUMMARY:DeptKey[departmentCode=ENGL\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=151\,courseDetailCode=\,DeptKey[departmentCode=ENGL\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=151\,courseDetailCode=\,DeptKey[departmentCode=ENGL\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:ART\, Room 210
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd303357
+DTSTART;TZID=America/Vancouver:20190102T140000
+DTEND;TZID=America/Vancouver:20190102T153000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190405T235959;INTERVAL=1;BYDAY=FR
+SUMMARY:DeptKey[departmentCode=ENGL\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=151\,courseDetailCode=\,DeptKey[departmentCode=ENGL\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=151\,courseDetailCode=\,DeptKey[departmentCode=ENGL\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:ART\, Room 210
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd545986
+DTSTART;TZID=America/Vancouver:20190104T140000
+DTEND;TZID=America/Vancouver:20190104T153000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190402T235959;INTERVAL=1;BYDAY=TU
+SUMMARY:DeptKey[departmentCode=FREN\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=103\,courseDetailCode=\,DeptKey[departmentCode=FREN\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=103\,courseDetailCode=\,DeptKey[departmentCode=FREN\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:ART\, Room 220
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd318684
+DTSTART;TZID=America/Vancouver:20190101T123000
+DTEND;TZID=America/Vancouver:20190101T140000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190404T235959;INTERVAL=1;BYDAY=TH
+SUMMARY:DeptKey[departmentCode=FREN\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=103\,courseDetailCode=\,DeptKey[departmentCode=FREN\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=103\,courseDetailCode=\,DeptKey[departmentCode=FREN\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:ART\, Room 220
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd229761
+DTSTART;TZID=America/Vancouver:20190103T123000
+DTEND;TZID=America/Vancouver:20190103T140000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190401T235959;INTERVAL=1;BYDAY=MO
+SUMMARY:DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=101\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=101\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:COM\, Room 201
+DESCRIPTION:***If this class is blocked please register onto the waitlist*** Students will be added to the class from the waitlist as space becomes available. Please ensure you have the proper pre-reqs.\n\nPlease register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule.\n\nThis course requires pre-requisites. If you are unable to register please contact Hilda Patzer at hilda.patzer@ubc.ca.\n\nInclude your name\, student ID\, and course number. If your pre-requisite waiver is approved\, you will be force-added to the course.\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd425449
+DTSTART;TZID=America/Vancouver:20181231T093000
+DTEND;TZID=America/Vancouver:20181231T103000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190403T235959;INTERVAL=1;BYDAY=WE
+SUMMARY:DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=101\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=101\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:COM\, Room 201
+DESCRIPTION:***If this class is blocked please register onto the waitlist*** Students will be added to the class from the waitlist as space becomes available. Please ensure you have the proper pre-reqs.\n\nPlease register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule.\n\nThis course requires pre-requisites. If you are unable to register please contact Hilda Patzer at hilda.patzer@ubc.ca.\n\nInclude your name\, student ID\, and course number. If your pre-requisite waiver is approved\, you will be force-added to the course.\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412287abcd24313
+DTSTART;TZID=America/Vancouver:20190102T093000
+DTEND;TZID=America/Vancouver:20190102T103000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190405T235959;INTERVAL=1;BYDAY=FR
+SUMMARY:DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=101\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=101\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:COM\, Room 201
+DESCRIPTION:***If this class is blocked please register onto the waitlist*** Students will be added to the class from the waitlist as space becomes available. Please ensure you have the proper pre-reqs.\n\nPlease register in the lecture even if no lab is currently available. Additional labs will be added if needed before the beginning of the term. Please check back to see if an open lab fits your schedule.\n\nThis course requires pre-requisites. If you are unable to register please contact Hilda Patzer at hilda.patzer@ubc.ca.\n\nInclude your name\, student ID\, and course number. If your pre-requisite waiver is approved\, you will be force-added to the course.\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412288abcd514037
+DTSTART;TZID=America/Vancouver:20190104T093000
+DTEND;TZID=America/Vancouver:20190104T103000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190402T235959;INTERVAL=1;BYDAY=TU
+SUMMARY:DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=101\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=101\,courseDetailCode=\,DeptKey[departmentCode=MATH\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:FIP\, Room 129
+DESCRIPTION:
+DTSTAMP:20181211T205012Z
+UID:12341544561412288abcd315411
+DTSTART;TZID=America/Vancouver:20190101T163000
+DTEND;TZID=America/Vancouver:20190101T173000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190401T235959;INTERVAL=1;BYDAY=MO
+SUMMARY:DeptKey[departmentCode=PSYO\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=111\,courseDetailCode=\,DeptKey[departmentCode=PSYO\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=111\,courseDetailCode=\,DeptKey[departmentCode=PSYO\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:COM\, Room 201
+DESCRIPTION:\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412288abcd346687
+DTSTART;TZID=America/Vancouver:20181231T110000
+DTEND;TZID=America/Vancouver:20181231T123000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20181211T205012Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20190403T235959;INTERVAL=1;BYDAY=WE
+SUMMARY:DeptKey[departmentCode=PSYO\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]] CourseKey [courseNumber=111\,courseDetailCode=\,DeptKey[departmentCode=PSYO\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]] CourseKey [courseNumber=111\,courseDetailCode=\,DeptKey[departmentCode=PSYO\,CampusKey[campusCode=UBCO\,SessionKey[sessionYear=2018\,sessionCode=W]]]]
+LOCATION:COM\, Room 201
+DESCRIPTION:\n\n
+DTSTAMP:20181211T205012Z
+UID:12341544561412288abcd18162
+DTSTART;TZID=America/Vancouver:20190102T110000
+DTEND;TZID=America/Vancouver:20190102T123000
+END:VEVENT
+END:VCALENDAR
+
