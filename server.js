@@ -77,15 +77,7 @@ app.post('/addfile', (req, res) => {
     }
 });
 
-app.post('/addDesiredCourses', (req, res) => {
-   const {coursename,id} = req.body;
-let insert = db('courses').insert(data)
-delete data.id 
-let update = knex(table).update(data)
-let query = util.format('%s on duplicate key update %s', 
-  insert.toString(), update.toString().replace(/^update ([`"])[^\1]+\1 set/i, ''))
-return knex.raw(query)
-});
+
 
 
 
