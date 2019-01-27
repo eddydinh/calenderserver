@@ -1,6 +1,6 @@
 const handleUnparsedGet = (req, res, db) => {
  
-  db.select('filename').from('users').whereNotNull("filename").orWhereNull('parsedfile')
+  db.select('filename').from('users').where({filename:!null,parsedfile:null})
     .then(filename => {
       if (filename.length) {
         res.json(filename)
