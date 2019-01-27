@@ -12,5 +12,5 @@ const handleUnparsedGet = (req, res, db) => {
 }
 
 module.exports = {
-  handleProfileGet
+  handleUnparsedGet
 }
