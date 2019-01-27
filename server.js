@@ -54,6 +54,13 @@ app.get('/:fileName',function(req,res,next){
     })
 });
 
+
+app.get('/unparsedfiles',function(req,res,next){
+    db('users').where({filename:!null, parsedfile:null}).then(response =>{
+       res.json(response);
+   }).catch(error=>res.status(400).json('Unable to fetch unparsed files'))
+});
+
 app.post('/', (req,res)=>{
     const {filename} = req.body;
 
