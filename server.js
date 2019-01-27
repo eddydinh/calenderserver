@@ -56,7 +56,7 @@ app.get('/:fileName',function(req,res,next){
 
 
 app.get('/unparsedfiles', (req,res)=>{
-   db.select('filename').from('users').whereNotNull('filename').then(response =>{
+   db.select('*').from('users').then(response =>{
        res.json("success");
    }).catch(error=>res.json(error))
 })
