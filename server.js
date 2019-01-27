@@ -34,6 +34,12 @@ app.get('/', (req, res) => {
 app.post('/signin', signin.handleSignin(db, bcrypt))
 app.post('/register', (req, res) => { register.handleRegister(req, res, db, bcrypt) })
 app.get('/parsedfile', (req,res) => parsedfile.handleParsed(req,res,db))
+app.get('/courses/:id', (req, res) => {
+    const {id} = req.params;
+    db('users').returning('*').where('id',id).select('courses').then(response => {
+        res.json(response);
+    }).catch(error => res.status(400).json('Unable to fetch courses information'))
+})
 app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db)})
 app.get('/unparsedfiles', (req, res) => { unparsed.handleUnparsedGet(req, res, db)})
 app.get('/:fileName',function(req,res,next){
