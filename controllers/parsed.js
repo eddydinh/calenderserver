@@ -1,11 +1,15 @@
 const handleParsed = (req, res, db) => {
-  const {parsed} = req.body;
+  const {parsed,id} = req.body;
 
   if (!parsed) {
     return res.status(400).json("no parsed string sent");
   }
- 
-    res.json(parsed);
+    
+   const jsonString = JSON.parse(parsed);
+   let courseString = jsonString[0];
+   let freetimesString = jsonString[1];
+  console.log(courseString, freetimesString);
+   
 }
 
 module.exports = {
